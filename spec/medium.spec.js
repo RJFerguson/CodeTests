@@ -1,4 +1,4 @@
-var app = require("../app/binary_addition.js");
+var app = require("../app/medium.js");
 
 describe("it should add two numbers together and convert it to binary", function(){
   describe("it should add two numbers together", function(){
@@ -13,5 +13,4 @@ describe("it should add two numbers together and convert it to binary", function
       expect(total).toMatch('110')
     });
   });
-
 });
