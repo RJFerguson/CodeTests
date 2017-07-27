@@ -27,3 +27,10 @@ describe('compute the middle of a tuple array', function(){
     expect(middle).toBe(0)
   })
 })
+
+describe('finds the non repeated number in an odd length array ', function(){
+  it('should return the non repeated number as an int', function(){
+    var middle = app.stray([2,1,1])
+    expect(middle).toBe(2)
+  })
+})

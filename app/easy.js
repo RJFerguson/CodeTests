@@ -19,3 +19,9 @@ exports.middleNum = function(arr){
   
   return arr.indexOf(newArr[1])
 }
+
+exports.stray = function(numbers){
+  for (var i in numbers){
+     if (numbers.indexOf(numbers[i]) === numbers.lastIndexOf(numbers[i])){return numbers[i]}
+  }
+}
