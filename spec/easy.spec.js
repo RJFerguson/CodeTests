@@ -34,3 +34,10 @@ describe('finds the non repeated number in an odd length array ', function(){
     expect(middle).toBe(2)
   })
 })
+
+describe('finds the cube of odd number is an array ', function(){
+  it('should return the cube value', function(){
+    var final = app.cubeOdd([2,1,3])
+    expect(final).toBe(28)
+  })
+})
